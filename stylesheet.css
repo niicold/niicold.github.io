@@ -1,0 +1,63 @@
+* {background-color: white;
+    color: black;
+    text-align: center;
+}
+
+.container /*haven't styled yet */
+
+.banner {text-align: center;
+        color: white;
+        background-color: gray;
+        flex: 1 1 0%; /*tried to make semi-transparent??? */
+        height: 50px;
+        font-size: 26px;
+        font-family: "Dancing Script", cursive;
+}
+
+.nav {font-family: "Dancing Script", cursive;
+    margin-left: 100px;
+    margin-right: 85px;
+    margin-top: 20px;
+    
+    
+}
+
+
+.nav ul {padding: 5px;
+    margin: 5px;
+    margin-bottom: 10px;
+    list-style-type: none;
+    display:inline;
+    
+    
+}
+
+.nav li {display: inline;
+    text-align: center;
+    padding: 14px 16px;
+    margin-bottom: 10px;
+
+}
+ /*photos of junk */
+#collections li {width:150px;
+    display:inline-block;
+    margin-bottom: 20px;
+    
+}
+ /*photos of junk */
+
+div img {width: 150px;
+    transform: rotate(90deg);
+    clear: both;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+/*About me text*/
+
+p {font-family: "Josefin Sans", sans-serif;}
+
+/*Contact form*/
+
+form {margin-top: 30px;
+    font-family: "Josefin Sans", sans-serif;}
